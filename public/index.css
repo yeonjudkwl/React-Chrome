@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h1{
+    margin: 10px 20px;
+}
+header .weather{
+    margin-right: 20px;
+}

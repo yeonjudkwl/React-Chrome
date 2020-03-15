@@ -8,14 +8,14 @@ export const appendData = createAction(APPEND_DATA, data => data);
 export const removeData = createAction(REMOVE_DATA, id => id);
 
 const initialState = {
-  "0": {
-    id: "0",
-    work: "첫 번째 할 일"
-  },
-  "1": {
-    id: "1",
-    work: "두 번째 할 일"
-  }
+  // "0": {
+  //   id: "0",
+  //   work: "첫 번째 할 일"
+  // },
+  // "1": {
+  //   id: "1",
+  //   work: "두 번째 할 일"
+  // }
 };
 
 var nextId = Object.keys(initialState).length;

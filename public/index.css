@@ -2,15 +2,63 @@
     margin: 0;
     padding: 0;
 }
+body{
+    color: white;
+    background: url("./images/img02.jpg");
+    background-size: cover; 
+    background-position-y: -150px;
+}
 header{
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    padding-top: 15px;
 }
 header h1{
-    margin: 10px 20px;
+    margin-left: 20px;
+    font-size: 20px;
 }
 header .weather{
-    margin-right: 20px;
+    margin-right: 30px;
+}
+header .weather .logo{
+    position: absolute;
+    right: 70px;
+    top: 8px;
+}
+header .weather .logo img{
+    width: 50px;
+}
+header .weather .temp{
+    font-size: 28px;
+}
+header .weather .locate{
+    font-size: 14px;
+    padding: 5px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+main .datetime{
+    font-size: 130px;
+    font-weight: bold;
+}
+main .user_input{
+    margin: 20px 0;
+    padding: 10px;
+    background: rgba(255, 255, 255, .5);
+    border: none;
+    font-size: 28px;
+    text-align: center;
+}
+main .user_form, main .greetings{
+    display: none;
+}
+.showing{
+    display: block;
+    font-size: 35px;
 }

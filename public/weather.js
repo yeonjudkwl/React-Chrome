@@ -1,4 +1,4 @@
-
+// weather
 var url = 'http://api.openweathermap.org/data/2.5/weather?q=Gumi&APPID=4d321592354ff1d92c084ade49ffb0c9'   
 
 $.getJSON(url, function(data){
